@@ -35,6 +35,7 @@
 
 #include <uk/bus.h>
 #include <uk/alloc.h>
+#include <stdint.h>
 
 #ifdef __cplusplus
 extern "C" {
