@@ -36,6 +36,10 @@
 #include <uk/plat/common/cpu.h>
 #include <uk/bus/platform.h>
 #include <uk/plat/common/bootinfo.h>
+#include <platform_bus.h>
+#include <libfdt.h>
+#include <kvm/config.h>
+#include <ofw/fdt.h>
 
 #if CONFIG_PAGING
 #include <uk/errptr.h>
