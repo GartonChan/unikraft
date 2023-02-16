@@ -52,6 +52,9 @@
 #include <uk/ofw/fdt.h>
 #include <libfdt.h>
 #endif /* CONFIG_LIBVIRTIO_MMIO_FDT */
+#if defined(CONFIG_ARCH_ARM_64) || defined(CONFIG_ARCH_ARM_32)
+#include <gic/gic-v2.h>
+#endif
 
 /*
  * The alignment to use between consumer and producer parts of vring.
